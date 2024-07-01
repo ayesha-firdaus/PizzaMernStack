@@ -1,0 +1,16 @@
+import styled from "styled-components";
+
+const DashboardBox = styled.div`
+  /* Box */
+  background-color: #f7f7e3;
+  border: 1px solid #ddddc6;
+  border-radius: 9px;
+
+  padding: 3.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+`;
+
+export default DashboardBox;

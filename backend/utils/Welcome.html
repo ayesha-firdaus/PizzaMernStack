@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Welcome to Pizza.Co</title>
+    <style>
+      /* Add your custom styles here */
+      body {
+        background-color: #f6f6f6;
+        font-family: Arial, sans-serif;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: block;
+        max-width: 580px;
+        padding: 10px;
+        margin: 0 auto;
+      }
+      .content {
+        max-width: 580px;
+        margin: 0 auto;
+        padding: 10px;
+        background: #fff;
+        border-radius: 3px;
+      }
+      .wrapper {
+        padding: 20px;
+      }
+      .footer {
+        text-align: center;
+        padding: 10px;
+        color: #999;
+      }
+      .footer a {
+        color: #999;
+        text-decoration: underline;
+      }
+      .btn-primary a {
+        background-color: #3498db;
+        border: solid 1px #3498db;
+        border-radius: 5px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+        padding: 12px 25px;
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+      <tr>
+        <td>&nbsp;</td>
+        <td class="container">
+          <div class="content">
+            <!-- START CENTERED WHITE CONTAINER -->
+            <span class="preheader">Welcome to Pizza.Co! We are excited to have you.</span>
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="main">
+              <!-- START MAIN CONTENT AREA -->
+              <tr>
+                <td class="wrapper">
+                  <p>Hi there, ${firstname},</p>
+                  <p>Welcome to Pizza.Co! We are thrilled to have you as part of our family.</p>
+                  <p>We are dedicated to providing you with the best pizzas in town, made with the freshest ingredients and a whole lot of love.</p>
+                  <p>To get started, click the button below:</p>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                    <tbody>
+                      <tr>
+                        <td align="left">
+                          <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td> <a href="${url}" target="_blank">Get Started</a> </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>If you have any questions, feel free to reach out to us at any time.</p>
+                  <p>Enjoy your time with us!</p>
+                  <p>Best regards,</p>
+                  <p>The Pizza.Co Team</p>
+                </td>
+              </tr>
+              <!-- END MAIN CONTENT AREA -->
+            </table>
+            <!-- START FOOTER -->
+            <div class="footer">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="content-block">
+                    <span class="apple-link">Pizza.Co, 123 Pizza Street, Food City, FC 12345</span>
+                    <br> Don't like these emails? <a href="${unsubscribeUrl}">Unsubscribe</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="content-block powered-by">
+                    Powered by <a href="http://pizza.co">Pizza.Co</a>.
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- END FOOTER -->
+          </div>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
